@@ -1,0 +1,62 @@
+
+public class MeuCarro {
+
+	public static void main(String[] args) {
+	
+	    Carro MeuCarro = new Carro(); 
+				
+        MeuCarro.setmarca("Toyota");
+		MeuCarro.setModelo("Corolla");
+	    MeuCarro.setAno(2022);
+		MeuCarro.setQuilometragem(345); 
+		
+		System.out.println("-----Questao 01-----");
+		
+		System.out.println("Marca:" + MeuCarro.getMarca());
+		System.out.println("Modelo:" + MeuCarro.getmodelo());
+		System.out.println("ano: " + MeuCarro.getAno());
+		
+		System.out.println("-----Questao 02-----");
+		
+		System.out.println("quilometragem: " + MeuCarro.getQuilometragem());
+		
+		@SuppressWarnings("unused")
+		Carro CarroEsportivo = new Carro();
+		
+		MeuCarro.setmarca("Ferrari, ");
+		MeuCarro.setModelo("488 GTB, ");
+		MeuCarro.setAno(2023);
+		MeuCarro.setVelocidadeMaxima(330);
+		MeuCarro.setVelocidadeMaxima2(80);
+		
+		
+		System.out.println("-----Questao 03-----");
+		
+		System.out.println("Acelerando Carro Esportivo!");
+		
+		System.out.print("Marca:" + MeuCarro.getMarca());
+		System.out.print("Modelo:" + MeuCarro.getmodelo());
+		System.out.print("ano:" + MeuCarro.getAno());
+		System.out.println(" Velocidademaxima:" + MeuCarro.getVelocidadeMaxima());
+		
+		System.out.print("Marca:" + MeuCarro.getMarca());
+		System.out.print("Modelo:" + MeuCarro.getmodelo());
+		System.out.print("ano:" + MeuCarro.getAno());
+		System.out.println(" Velocidademaxima:" + MeuCarro.getVelocidadeMaxima2());
+		
+		
+		Carro motor = new Carro();
+		
+		System.out.println("-----Questao 04-----");
+		
+		System.out.println("Ligando o Carro...");
+		System.out.print("Motor:" + motor.getTipo());
+		System.out.print(" potencia:" + motor.getPotencia());
+		
+				
+	}
+
+}
+
+
+
