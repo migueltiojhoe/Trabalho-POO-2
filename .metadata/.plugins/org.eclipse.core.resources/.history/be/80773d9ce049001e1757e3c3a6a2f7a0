@@ -1,0 +1,82 @@
+
+public class Carro {
+	
+	
+	private String marca = "Toyota";
+	private String modelo = "Corolla";
+	private int ano = 2022; 
+	public void setmarca (String marca) {
+	this. marca = marca;
+	}
+	public String getmarca() {
+		return marca;
+	}
+	
+
+	public void setmodelo (String modelo) {
+	this. modelo = modelo;
+	}
+	public String getmodelo () {
+		return modelo;
+	
+	}
+	public void setano (int ano) {
+	this. ano = ano;
+	
+	
+	}
+	public int getano () {
+		return ano;
+		
+	}
+}
+
+		
+	 class Carro {
+		 
+		 private String marca;
+		    private String modelo;
+		    private int ano;
+		    private int quilometragem;
+
+		    public void setMarca(String marca) {
+		        this.marca = marca;
+		    }
+
+		    public String getMarca() {
+		        return marca;
+		    }
+
+		    public void setModelo(String modelo) {
+		        this.modelo = modelo;
+		    }
+
+		    public String getModelo() {
+		        return modelo;
+		    }
+
+		    public void setAno(int ano) {
+		        this.ano = ano;
+		    }
+
+		    public int getAno() {
+		        return ano;
+		    }
+
+		    public void setQuilometragem(int quilometragem) {
+		        if (quilometragem >= 0) {
+		            this.quilometragem = quilometragem;
+		        }
+		    }
+
+		    public int getQuilometragem() {
+		        return quilometragem;
+		    }
+
+		    public void rodar(int km) {
+		        if (km >= 0) {
+		            quilometragem += km;
+		        }
+		    }
+		}
+

@@ -1,0 +1,17 @@
+
+public class main {
+
+	public static void main(String[] args) {
+	String produt1 = 2100,00;
+	String produt2 = 650,50;
+	int age = 30;
+	int code = 5290;
+	char gender = "F";
+	
+	double price1 = 2100.0;
+	double price2 = 650.50;
+	double measure = 53.234567;
+
+	}
+
+}

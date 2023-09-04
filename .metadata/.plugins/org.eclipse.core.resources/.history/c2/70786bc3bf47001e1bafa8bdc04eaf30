@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+	System.out.println("Olá mundo");
+
+	}
+}
+/*
+ Uma maneira de fazer isso
+  é clicar com o botão direito
+   na classe Primero.java, selecionar “Run As” > “Run Configurations…”,
+    ir na aba “Arguments”, “VM Arguments”
+     e inserir o encoding apropriado: -Dfile.encoding=utf-8
+ */

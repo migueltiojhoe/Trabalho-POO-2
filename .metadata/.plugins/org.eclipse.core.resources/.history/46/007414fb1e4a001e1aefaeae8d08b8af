@@ -1,0 +1,20 @@
+
+public class Motor {
+	private String tipo = "V8";
+	private int potencia = 500;
+	private String Tipo;
+	public String getTipo() {
+		return Tipo;
+	}
+	public void setTipo(String tipo) {
+		this.Tipo = tipo;
+	}
+	public int getPotencia() {
+		return potencia;
+	}
+	public void setPotencia(int potencia) {
+		this.potencia = potencia;
+	}
+	
+
+	}

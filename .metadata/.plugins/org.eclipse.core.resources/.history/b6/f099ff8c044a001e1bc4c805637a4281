@@ -1,0 +1,14 @@
+
+public class CarroEsportivo extends Carro {
+	private int velocidadeMaxima;
+	public void acelerar() {
+		
+        System.out.println("Acelerando o carro esportivo!");
+        
+
+}
+	public String toString() {
+        return "Carro Esportivo: " + getmarca() + " " + getmodelo() + " " + getano() +
+               ", Velocidade Máxima: " + velocidadeMaxima;
+    }
+}

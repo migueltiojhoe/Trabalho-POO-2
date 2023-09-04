@@ -1,0 +1,55 @@
+
+    public class Carro {
+	
+	
+	private String marca = "Toyota";
+	private String modelo = "Corolla";
+	private int ano = 2022;
+	private int quilometragem;
+	public void setmarca (String marca) {
+	this. marca = marca;
+	}
+	public String getmarca() {
+		return marca;
+	}
+	
+
+	public void setmodelo (String modelo) {
+	this. modelo = modelo;
+	}
+	public String getmodelo () {
+		return modelo;
+	
+	}
+	public void setano (int ano) {
+	this. ano = ano;
+	
+	
+	}
+	public int getano () {
+		return ano;
+		
+	}
+	public int getQuilometragem() {
+		return quilometragem;
+	}
+	public void setQuilometragem(int quilometragem) {
+		this.quilometragem = quilometragem;
+	}
+		
+		public void rodar(int quilometros) {
+			if (quilometros >=0) {
+				quilometragem += quilometros;
+			} else {
+				System.out.println("A quilometragem não pode ser negativa.");
+			}
+	}
+
+	}
+    
+    
+    
+    
+	     
+	     
+

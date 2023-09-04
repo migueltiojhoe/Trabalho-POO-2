@@ -1,0 +1,54 @@
+
+    public class Carro {
+	
+	
+	private String marca = "Toyota";
+	private String modelo = "Corolla";
+	private int ano = 2022; 
+	public void setmarca (String marca) {
+	this. marca = marca;
+	}
+	public String getmarca() {
+		return marca;
+	}
+	
+
+	public void setmodelo (String modelo) {
+	this. modelo = modelo;
+	}
+	public String getmodelo () {
+		return modelo;
+	
+	}
+	public void setano (int ano) {
+	this. ano = ano;
+	
+	
+	}
+	public int getano () {
+		return ano;
+		
+	}
+}
+    
+    public class Carro {
+    	private String modelo;
+        private String marca;
+        private int quilometragem;
+    	public void setQuilometragem(int quilometragem);  
+        public void rodar(int quilometrosPercorridos) {
+    	        if (quilometrosPercorridos >= 0) {
+    	            this.quilometragem += quilometrosPercorridos;
+    	            System.out.println("O carro percorreu " + quilometrosPercorridos + " quilômetros.");
+    	        } else {
+    	            System.out.println("A quantidade de quilômetros percorridos deve ser não negativa.");
+    	        }
+    	    }
+    	}
+    
+    
+    
+    
+	     
+	     
+
